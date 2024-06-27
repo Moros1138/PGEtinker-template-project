@@ -331,9 +331,11 @@ endif() # USE_SDL2_MIXER
 # Set include directory
 ######################################################################
 if(IS_DIRECTORY ${SOURCE_CXX_INCLUDE_DIR})
+    include_directories(${SOURCE_CXX_INCLUDE_DIR}/olcPixelGameEngine/extensions)
+    include_directories(${SOURCE_CXX_INCLUDE_DIR}/olcPixelGameEngine/utilities)
+    include_directories(${SOURCE_CXX_INCLUDE_DIR}/olcPixelGameEngine)
+    include_directories(${SOURCE_CXX_INCLUDE_DIR}/olcSoundWaveEngine)
     include_directories(${SOURCE_CXX_INCLUDE_DIR})
-    include_directories(${SOURCE_CXX_INCLUDE_DIR}/extensions)
-    include_directories(${SOURCE_CXX_INCLUDE_DIR}/utilities)
 endif()
 
 
