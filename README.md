@@ -1,6 +1,6 @@
 # PGEtinker Template Project
 
-This is a companion template project for people who wish to take the PGEtinker to the next level! This template project is packed with everything that's available in PGEtinker!
+This is a companion template project for people who wish to take their PGEtinker program to the next level! This template project is packed with everything that's available in PGEtinker! Your program should work without change!
 
 ## Features
 
