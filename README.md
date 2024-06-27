@@ -163,7 +163,8 @@ This command should launch the project in your default web browser.
 Open the ``Command Prompt`` prompt and navigate to the directory which you downloaded the project. Issue the following command:
 
 ```
-mkdir build && cd build
+md build
+cd build
 cmake .. -G "MinGW Makefiles"
 ```
 
